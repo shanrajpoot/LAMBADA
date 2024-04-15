@@ -1,0 +1,503 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-style: 'Open Sans', sans-serif;
+}
+
+header {
+    background-image: url(images/bgSHADOW.png);
+    box-shadow: -4px -2px 29px -5px rgba(0,0,0,0.68);
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 10px 20px;
+  }
+
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 100px;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+
+  nav li {
+    font-weight: bold;
+    padding-left: 35px;
+    margin-right: -10px;
+  }
+
+  nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+
+  nav a:hover {
+    border-radius: 5px;
+    background-color: rgba(165, 165, 165, 0.5);
+  }
+
+  .icons {
+    display: flex;
+    /* gap: 1rem; "gap with center in first and last item" */
+    padding-right: 120px;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+  }
+
+  .icons a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+
+.button h1{
+    font-size: 18vh;
+    /* letter-spacing: 0.5rem; */
+    color: white;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#divider{
+    color: white;
+}
+
+.button{
+background-image: url(images/Bg.png);
+background-position: right 35% bottom 45%;
+box-shadow: inset 0 0 5px 2px #282a2d;
+width: 100vw;
+height: 100vh;
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+overflow-x: hidden;
+}
+
+#divider{
+    margin-top: -50px;
+}
+
+#buttons{
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#buttons .button1{
+    width: 170px;
+    padding: 15px;
+    margin-right: 25px;
+    background-color: rgba(0, 0, 0, 0.400);
+    border: 1px solid black;
+    color: white;
+    /* transition: transform 0.3s;
+    transition: normal;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: transform; */
+}
+
+#buttons .button1 a{
+    color: white;
+    font-weight: bold;
+}
+
+#buttons .button2{
+    width: 170px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.200);
+    border: 1px solid white;   
+    color: white;
+}
+
+#buttons .button2 a{
+    color: black;
+    font-weight: bold;
+}
+
+/* Statement Section */
+.statement {
+    background-image: url(images/pattern.png);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+section {
+    display: block;
+}
+
+.divider {
+    align-items: center;
+}
+
+.content{
+    margin: 150px;
+}
+
+.content h2{
+    font-size: 35px;
+    margin-left: 10px;
+    color: rgb(212, 152, 0);
+}
+
+.content .divider{
+    margin: 20px 0 20px 50px;
+}
+
+.paragraph{
+    width: 400px;
+    margin: 0 0 20px -40px;
+    text-align: center;
+}
+
+.cook{
+    margin-left: 70px;
+}
+
+.dish{
+    margin: -620px 0 0 750px;
+    position: absolute;
+}
+
+/* Ingredients Section */
+.ingredients {
+    background-image: url(images/bg5.png);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.ingredients-box {
+    width: 450px;
+    height: 550px;
+    background: rgba(0, 0, 0, 0.400);
+    margin: 60px 0 70px 710px;
+}
+
+.ingredients-box h2{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+.ingredients-box .divider{
+    margin: 15px 0 0 130px;
+}
+
+.ingredients-box p{
+    color: white;
+    text-align: center;
+    padding: 30px 30px 40px 30px;
+}
+
+.spices{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spices .masala1 img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+}
+
+.spices .masala2 img{
+    width:80px;
+    height: 80px;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+}
+
+.spices .masala3 img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+}
+
+
+/* Dish Menu Section */
+.dish-menu {
+    background-image: url(images/pattern.png);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.col{
+    width: 400px;
+    height: 400px;
+    margin: 80px 0 0 150px;
+}
+
+.col h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(212, 152, 0);
+}
+
+.divider{
+    margin: 10px 0 20px 100px;
+}
+
+.dishes .dish_name{
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: rgb(212, 152, 0);
+} 
+
+.dishes .dish_name1{
+    font-weight: bold;
+    color: rgb(212, 152, 0);
+    text-align: right;
+    padding-bottom: 10px;
+    margin-top: -35px;
+    border-bottom: 1px solid rgb(212, 152, 0, 0.4);
+}
+
+.p-content{
+    padding-top: 10px;
+}
+
+.salad{
+    margin-top: 60px;
+}
+
+.starters{
+    margin: -480px 0 0 600px;
+}
+
+.main-dish{
+    margin: -200px 0 0 10px;
+}
+
+
+/* Reviews Section */
+.review{
+    background-image: url(images/bg2.png);
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+.review_box{
+    width: 600px;
+    height: 380px;
+    margin: 100px 340px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.700);
+}
+
+.review_box h2{
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+.review_box .divider{
+    padding-left: 60px;
+}
+
+.review_box p{
+    font-size: 25px; 
+    text-align: center;
+    color: white;
+}
+
+
+/* Book Section */
+.book{
+    background-image: url(images/pattern.png);
+    background-size: cover;
+    width: 100%;
+    height: 580px;
+    overflow: hidden;
+}
+
+.images{
+    margin: 90px 0 0 200px;
+}
+
+.images .img2{
+    padding-left: 50px;
+}
+
+.form_box{
+    width: 400px;
+    margin: -410px 70px 0 750px;
+}
+
+.form_box h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(212, 152, 0);
+    padding-left: 10px;
+}
+
+.form_box img{
+    margin-left: 50px;
+}
+
+.form_box p{
+    padding-right: 80px;
+    font-size: 14px;
+    text-align: center;
+    opacity: 70%;
+}
+
+form{
+    padding-top: 20px;
+}
+
+label{
+    font-size: 13px;
+    color: rgb(212, 152, 0);
+}
+
+form button{
+    margin: 20px 0 0 150px;
+    padding: 2px 15px;
+    color: white;
+    background: rgb(209, 168, 65);
+    border: none;
+}
+
+form #fullname{
+    margin: 10px 0 20px 0;
+}
+
+/* form #email{
+    margin-top: 50px;
+} */
+
+form #date{
+    margin: 10px 0 20px 0;
+}
+
+/* form #number{
+    margin: 10px 0 10px 0;
+} */
+
+
+/* Footer Section */
+footer{
+    color: white;
+    background-color: #0e0e0e;
+    padding-bottom: 80px;
+}
+
+.about-us{
+    padding: 70px 0 0 110px;
+}
+
+.about-us h3{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 830px;
+    padding-bottom: 10px;
+}
+
+.about-us .f1-divider{
+    padding-left: 100px;
+}
+
+.about-us p{
+    text-align: center;
+    padding-right: 800px;
+    padding-top: 10px;
+}
+
+.open-hours{
+    margin: -155px 0 0 650px;
+}
+
+.open-hours h3{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 500px;
+    padding-bottom: 10px;
+}
+
+.open-hours .f1-divider{
+    padding-left: 100px;
+}
+
+.open-hours p{
+    text-align: center;
+    padding-right: 500px;
+    padding-top: 10px;
+}
+
+.location{
+    margin: -190px 0 0 1000px;
+}
+
+.location h3{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 150px;
+    padding-bottom: 10px;
+}
+
+.location .f1-divider{
+    padding-left: 100px;
+}
+
+.location p{
+    text-align: center;
+    padding-right: 150px;
+    padding-top: 10px;
+}
+
+.cards{
+    display: flex;
+    margin-top: 20px;
+    padding-left: 70px;
+}
+
+.cards .icon1 {
+    width: 20px;
+    height: 20px;
+  }
